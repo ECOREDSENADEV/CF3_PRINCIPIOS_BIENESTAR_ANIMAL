@@ -2,25 +2,28 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 38%
+    right: 78%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 70%
+    right: 43%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 13%
+    right: 7%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+
+///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
   background-position: left 50% !important
-
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -30,3 +33,258 @@
 
 figcaption
   font-weight: normal
+
+.banner-principal__row .banner-principal__img
+  width: 500px !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+//////////Background_Color///////////
+.bg-color
+  &-1
+    background-color: #D3F8F6 !important
+  &-2
+    background-color: #E9E6EF
+  &-3
+    color: #251049 !important
+  &-4
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 250, 228, 1) 40%, rgba(232, 251, 250, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-5
+    background-color: #E8FBFA
+  &-6
+    background-color: #FEF09B
+  &-7
+    background-color: #FFF8CD !important
+  &-8
+    background-color: #E8DED5 !important
+  &-9
+    background-color: #F3EEE9
+  &-10
+    background-color: #361969
+  &-11
+    background-color: #A8F1ED
+  &-12
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 250, 228, 1) 40%, rgba(232, 251, 250, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-13
+    background-color: #FFD907 !important
+  &-14
+    background-color: #C6AC97
+  &-15
+    background-color: #D6D0E1
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-sintesis
+    background-color: #F6F6F6
+
+///////Full Width Background///////////////////
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+///////////////fondos/////////////////
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.svg") !important
+    background-position: bootom
+  &-2
+    // background-image: url("../assets/bg/bg2.png") !important
+    background-position: bottom
+  &-slider
+    background-image: url("../assets/curso/bg-slider.png") !important
+    background-position: bottom
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #FAEDA5
+  border: #FAEDA5
+.slyder-a__bullets__item--active
+  background-color: #FFD907
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #FF8900
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #FFD907
+  border-radius: 30px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 0
+  width: 60px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 50px
+
+.titulo-con-imagen-2
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo-2
+  background-color: #26DBD2
+  border-radius: 30px
+  padding: 5px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen-2
+  position: absolute
+  left: 0
+  width: 36px
+.titulo-con-imagen__texto-2
+  margin: 0
+  padding-left: 25px
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #FF8900 !important
+  color: $color-sistema-texto 
+.acordion__activo
+  background-color: #A8F1ED!important
+.acordion_titulo
+  color: $color-sistema-texto  !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+.linea-tiempo-e__item__header:before
+  top: 10px
+
+// Variables
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #D3F8F6
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    //height: $custom-card-img-height
+    object-fit: cover
+
+.custom-image-card-2
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: 253px
+    object-fit: cover
+  
+////////SOMBRA CAJON//////////
+.shadow-app
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+    color: white
+  .fa-chevron-right
+    font-size: 20px
+    color: white
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+///////////////TABLAS/////////////////// 
+.tabl
+  table td
+    text-align: start !important
+  th, td, table thead th, .tabla-a th 
+    border: 2px solid #B5B5B5
+  table
+    table-layout: auto
+
+.tarjeta-avatar .tarjeta 
+  padding-top: 10px !important
+
+
+/////////CUSTOM TABS-B///////////////
+.tabs-b__content-item, .tabs-b__tab.tabs-b__tab--active
+  background-color: #F8F6F4
+.tabs-b__tab
+  background-color: #E8DED5 
+
+/////////CUSTOM TABS-C//////////
+.tabs-c__header 
+  margin-bottom: 0
+.tabs-c__content-item
+  background-color: #F8F6F4
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FF8900
+  color: $color-sistema-texto !important
+.tabs-a__tab
+  background-color: #FFD907
+.tarjeta.color-acento-botones--borde
+  background-color: #F3EEE9
+  border: solid 4px #F3EEE9
+
+.bloque-texto-a.color-acento-contenido:before 
+    background-color: #FFFAE4
