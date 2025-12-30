@@ -290,7 +290,7 @@
     .bg-color-15.mb-5.tarjeta
       .p-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema5/14.svg", style="max-width: 90px").mx-auto
           .col-lg
             h5.mb-0 Adoptar sin preparación técnica puede derivar en maltrato involuntario, abandono y daño ambiental irreversible.

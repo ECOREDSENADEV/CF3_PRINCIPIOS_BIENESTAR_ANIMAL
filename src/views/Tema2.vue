@@ -9,14 +9,12 @@
     
     p.mb-5 La protección animal comprende el conjunto articulado de principios éticos, normas jurídicas, políticas públicas, acciones preventivas, mecanismos de control y responsabilidades sociales orientadas a garantizar que todos los animales, incluidos aquellos bajo custodia humana, vivan en condiciones compatibles con su bienestar, libres de sufrimiento evitable, abandono, negligencia, explotación y cualquier forma de maltrato.
 
-    .bloque-texto-a.color-acento-contenido.bg-color-13.p-4.p-md-5.mb-5 
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0.order-lg-2
-          figure
-            img(src="@/assets/curso/tema2/1.png", style="max-width: 224px")
-        .col-lg-8.order-lg-1
-          .bloque-texto-a__texto.p-5
-            p.mb-0 Este concepto parte del reconocimiento de los animales como seres sintientes, es decir, como individuos con capacidad de experimentar dolor, placer, miedo, estrés, angustia y bienestar. Esta condición impone a los seres humanos un deber moral, social y legal de respetar su vida, su integridad física y su dignidad.
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/1.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Este concepto parte del reconocimiento de los animales como seres sintientes, es decir, como individuos con capacidad de experimentar dolor, placer, miedo, estrés, angustia y bienestar. Esta condición impone a los seres humanos un deber moral, social y legal de respetar su vida, su integridad física y su dignidad.
     
     p.mb-5 La protección animal no se limita a una postura compasiva o emocional; constituye un deber jurídico exigible, respaldado por normas nacionales e internacionales, y se enmarca en enfoques como Una Sola Salud (One Health), que reconoce la interdependencia entre la salud humana, la salud animal y la salud ambiental.
 
@@ -64,7 +62,7 @@
       .col-lg-10
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/3.png', alt='')
             .col-lg
@@ -95,7 +93,7 @@
       .col-lg-10
         .bg-color-7.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/4.png', alt='')
             .col-lg
@@ -181,7 +179,7 @@
       .col-lg-8
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/5.png', alt='')
             .col-lg
@@ -322,7 +320,7 @@
       .col-lg-8
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/11.png', alt='')
             .col-lg
@@ -425,7 +423,7 @@
       .col-lg-8
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/13.png', alt='')
             .col-lg
@@ -469,7 +467,7 @@
       .col-lg-10
         .bg-color-7.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/14.png', alt='')
             .col-lg
@@ -506,7 +504,7 @@
       .col-lg-10
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/15.png', alt='')
             .col-lg
@@ -623,7 +621,7 @@
       .col-lg-8
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/23.png', alt='')
             .col-lg

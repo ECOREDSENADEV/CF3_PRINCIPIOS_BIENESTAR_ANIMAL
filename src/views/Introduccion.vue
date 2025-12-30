@@ -15,7 +15,7 @@
         .bloque-texto-a.color-acento-contenido.bg-color-13.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0.order-lg-2
-              figure
+              figure.justify-content-center.d-grid
                 img(src="@/assets/curso/intro/1.png", style="max-width: 224px")
             .col-lg-8.order-lg-1
               .bloque-texto-a__texto.p-5

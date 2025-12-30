@@ -11,7 +11,7 @@
 
     .bg-color-1.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/1.png', alt='')
         .col-lg
@@ -388,7 +388,7 @@
         p Los efectos pueden variar según se trate de especies convencionales o no convencionales:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.bg-color-1.p-5
+      .col-lg.tarjeta.color-primario.bg-color-1.p-5
         .row.justify-content-center.mb-4.align-items-end
           .col-3
             figure
@@ -400,7 +400,7 @@
         p.mb-0 La reproducción no controlada genera abandono masivo.
 
     
-      .col-md.tarjeta.color-primario.bg-color-7.p-5
+      .col-lg.tarjeta.color-primario.bg-color-7.p-5
         .row.justify-content-center.mb-4.align-items-end
           .col-3
             figure

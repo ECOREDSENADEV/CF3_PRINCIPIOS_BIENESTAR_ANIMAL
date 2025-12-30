@@ -17,7 +17,7 @@
         p.mb-0 El comportamiento animal comprende el conjunto de respuestas, conductas y patrones de acción que manifiestan los animales como resultado de la interacción dinámica entre su biología, genética, fisiología, estado emocional, experiencia previa y el entorno físico y social en el que se desarrollan. Estas conductas no son aleatorias; cumplen funciones esenciales para la supervivencia, adaptación, comunicación, reproducción, defensa y mantenimiento del equilibrio físico y psicológico del individuo.
 
     .row.align-items-center.mb-5
-      .col-lg-auto
+      .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema1/2.svg", style="max-width: 90px").mx-auto
       .col-lg
         p.mb-0 Desde el enfoque del bienestar animal, el comportamiento constituye una expresión directa del estado interno del animal. Un animal que puede expresar sus conductas naturales en un entorno adecuado presenta mayor estabilidad emocional, mejor salud y una relación más armónica con las personas. Por el contrario, cuando estas conductas son reprimidas, distorsionadas o ignoradas, se generan respuestas de estrés, frustración y sufrimiento, que pueden derivar en problemas conductuales y enfermedades. En el marco de la tenencia responsable, comprender el comportamiento animal es fundamental para:
@@ -50,7 +50,7 @@
     .row.justify-content-center
       .col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-auto.mb-3.mb-lg-0
+          .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/4.png', alt='')
           .col-lg.mb-3.mb-lg-0  
@@ -132,7 +132,7 @@
       .col-lg-8
         .bg-color-5.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/7.png', alt='')
             .col-lg
@@ -147,7 +147,7 @@
     p Cada especie tiene requerimientos conductuales particulares que deben ser respetados para garantizar su bienestar. Reconocer estas diferencias evita errores de manejo, humanización indebida y sufrimiento silencioso.
 
     .row.align-items-center.mb-5
-      .col-lg-auto
+      .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema1/8.svg", style="max-width: 90px").mx-auto
       .col-lg
         p.mb-0 Cada especie presenta patrones conductuales propios, determinados por su evolución, hábitat natural, estructura social y forma de comunicación. Por ello, no es correcto extrapolar el comportamiento de una especie a otra ni aplicar los mismos métodos de manejo. Lo que resulta adecuado para un perro puede ser inadecuado para un gato, un ave o un reptil.
@@ -156,7 +156,7 @@
       .col-lg-8
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/9.png', alt='')
             .col-lg
@@ -176,7 +176,7 @@
         p(data-aos="fade-left") Los animales se comunican de forma continua para expresar su estado emocional, necesidades fisiológicas y percepción del entorno. Interpretar estas señales es esencial para evitar conflictos, detectar problemas de salud y mejorar la convivencia.
         .bg-color-1.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/11.png', alt='')
             .col-lg
@@ -213,26 +213,26 @@
 
     .row.justify-content-center.mb-3
       .col-lg-4.mb-3.mb-lg-0.d-flex
-        .bg-color-1.tarjeta
+        .bg-color-1.tarjeta.w-100
           .p-3
             .row.align-items-center
-              .col-lg-auto.mb-3.mb-lg-0
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/13.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 El animal se encuentra relajado y receptivo.
       .col-lg-4.mb-3.mb-lg-0.d-flex
-        .bg-color-1.tarjeta
+        .bg-color-1.tarjeta.w-100
           .p-3
             .row.align-items-center
-              .col-lg-auto.mb-3.mb-lg-0
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/13.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 No hay signos de miedo, dolor o tensión
       .col-lg-4.mb-3.mb-lg-0.d-flex
-        .bg-color-1.tarjeta
+        .bg-color-1.tarjeta.w-100
           .p-3
             .row.align-items-center
-              .col-lg-auto.mb-3.mb-lg-0
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/13.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Tolera la manipulación y muestra interés por el entorno.
@@ -277,7 +277,7 @@
       .col-lg-8
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/15.png', alt='')
             .col-lg
@@ -396,7 +396,7 @@
       .col-lg-10
         .bg-color-1.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/18.png', alt='')
             .col-lg
@@ -567,34 +567,34 @@
 
     .row.justify-content-center.mb-5
       .col-lg-3.mb-3.mb-lg-0.d-flex
-        .bg-color-1.tarjeta
+        .bg-color-1.tarjeta.w-100
           .p-3
             .row.align-items-center
-              .col-lg-auto.mb-3.mb-lg-0
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/21.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Progresivo y adaptado a la especie.
       .col-lg-3.mb-3.mb-lg-0.d-flex
-        .bg-color-1.tarjeta
+        .bg-color-1.tarjeta.w-100
           .p-3
             .row.align-items-center
-              .col-lg-auto.mb-3.mb-lg-0
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/21.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Centrado en el refuerzo positivo.
       .col-lg-3.mb-3.mb-lg-0.d-flex
-        .bg-color-1.tarjeta
+        .bg-color-1.tarjeta.w-100
           .p-3
             .row.align-items-center
-              .col-lg-auto.mb-3.mb-lg-0
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/21.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Centrado en el refuerzo positivo.
       .col-lg-3.mb-3.mb-lg-0.d-flex
-        .bg-color-1.tarjeta
+        .bg-color-1.tarjeta.w-100
           .p-3
             .row.align-items-center
-              .col-lg-auto.mb-3.mb-lg-0
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/21.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Basado en sesiones cortas y repetitivas.
@@ -636,7 +636,7 @@
       .col-lg-10
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/27.png', alt='')
             .col-lg

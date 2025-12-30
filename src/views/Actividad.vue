@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Tenencia responsable y bienestar animal: principios éticos, normativos y prácticos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> identificar los conceptos clave sobre comportamiento animal, bienestar, protección legal, manejo responsable y principios éticos en la tenencia de animales de compañía, según la normativa colombiana.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +29,20 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es uno de los principales objetivos del adiestramiento en animales de compañía?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
+            { id: 'a', texto: 'Complacer al tutor.', esCorrecta: false },
+            { id: 'b', texto: 'Dominar al animal.', esCorrecta: false },
             {
-              id: 'a',
-              texto: 'tPlace',
+              id: 'c',
+              texto: 'Facilitar la convivencia y el manejo responsable.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Incrementar la productividad del animal.',
               esCorrecta: false,
             },
           ],
@@ -59,60 +52,29 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Qué ley en Colombia reconoce a los animales como seres sintientes?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Ley 84 de 1989.', esCorrecta: false },
+            { id: 'b', texto: 'Ley 1774 de 2016.', esCorrecta: true },
+            { id: 'c', texto: 'Ley 1801 de 2016.', esCorrecta: false },
+            { id: 'd', texto: 'Ley 2113 de 2017.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Qué tipo de comunicación utilizan los animales a través de feromonas y secreciones?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Corporal.', esCorrecta: false },
+            { id: 'b', texto: 'Vocal.', esCorrecta: false },
+            { id: 'c', texto: 'Química.', esCorrecta: true },
+            { id: 'd', texto: 'Visual.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -120,58 +82,51 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál es una manifestación clara de falta de bienestar en animales no convencionales?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Interacción social frecuente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
+              texto: 'Conductas repetitivas o estereotipias.',
+              esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'c', texto: 'Hidratación constante.', esCorrecta: false },
+            { id: 'd', texto: 'Vocalización moderada.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Qué condición debe cumplirse antes de iniciar un entrenamiento especializado?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Evaluación veterinaria previa.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Tener una transportadora adecuada.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Contar con una mascota esterilizada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Adiestramiento básico en obediencia.',
               esCorrecta: false,
             },
           ],
@@ -181,30 +136,18 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué entidad colombiana puede imponer sanciones penales por maltrato animal grave?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Inspección de Policía.', esCorrecta: false },
+            { id: 'b', texto: 'Secretaría de Salud.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Fiscalía General de la Nación.',
+              esCorrecta: true,
             },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'd', texto: 'Ministerio de Ambiente.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -212,28 +155,24 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cuál de los siguientes es un principio del transporte humanitario de animales?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Usar jaulas genéricas.', esCorrecta: false },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Permitir movimientos libres en el vehículo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Mantener ventilación suficiente.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Viajar con el animal en el platón del carro.',
               esCorrecta: false,
             },
           ],
@@ -243,28 +182,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Cuál es una práctica ilegal en la reproducción de animales de compañía?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Registro y seguimiento de crías.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Venta informal sin control sanitario.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Evaluación veterinaria previa.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Planificación reproductiva con controlí control técnico.',
               esCorrecta: false,
             },
           ],
@@ -274,20 +213,18 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Qué comportamiento es un indicador de posible enfermedad en una mascota?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Juego constante.', esCorrecta: false },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Apatía o aislamiento persistente.',
               esCorrecta: true,
             },
+            { id: 'c', texto: 'Alimentación normal.', esCorrecta: false },
+            { id: 'd', texto: 'Exploración del entorno.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -295,18 +232,24 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Qué es considerado maltrato por omisión según la normativa colombiana?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Visitas frecuentes al veterinario.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Negar atención médica o alimentación adecuada.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Vacunación periódica.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Alojamiento limpio y seguro.',
               esCorrecta: false,
             },
           ],
@@ -316,20 +259,12 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'La esterilización es una práctica recomendada para evitar la sobrepoblación y el maltrato animal.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Falso.', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: true },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -337,20 +272,12 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'El entrenamiento es un proceso aplicable a cualquier especie sin restricciones.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Falso.', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -358,20 +285,12 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            'Las mascotas no convencionales requieren condiciones ambientales específicas para su bienestar.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Falso.', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: true },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -379,20 +298,12 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Las señales vocales en animales siempre indican alegría o satisfacción.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Falso.', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -400,20 +311,12 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'La Ley 2455 de 2025 en Colombia fortalece las sanciones frente al maltrato animal.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Falso.', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: true },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
