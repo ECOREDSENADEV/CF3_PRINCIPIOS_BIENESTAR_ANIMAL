@@ -328,7 +328,7 @@
             .col-lg
               .p-4
                 h5 Enfoque preventivo
-                p Garantizar el bienestar animal implica:
+                p.mb-2 Garantizar el bienestar animal implica:
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-3
@@ -339,7 +339,7 @@
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-3
                     p.mb-0 Solicitar orientación veterinaria especializada.
-                  li.mb-2.d-flex
+                  li.mb-0.d-flex
                     i.fas.fa-circle-check.bg-color-3
                     p.mb-0 Comprender que no todas las especies son aptas para todos los hogares.
     
@@ -843,6 +843,34 @@
           span Riesgos del transporte inadecuado
         
         .tabla-a.color-acento-contenido.mb-5.tabl
+          table
+            thead
+              tr
+                th.bg-color-9 Principio
+                th.bg-color-9 Objetivo
+            tbody
+              tr
+                td Seguridad física
+                td Prevenir caídas, golpes, aplastamientos o fugas.
+              tr.bg-color-sintesis
+                td Bienestar térmico
+                td Mantener una temperatura adecuada para la especie.
+              tr
+                td Ventilación suficiente
+                td Evitar hipoxia y acumulación de gases nocivos.
+              tr.bg-color-sintesis
+                td Confort postural
+                td Permitir posiciones naturales sin restricciones.
+              tr
+                td Reducción del estrés
+                td Minimizar ruidos, vibraciones y manipulación.
+              tr.bg-color-sintesis
+                td Control sanitario
+                td Evitar contacto con animales enfermos o contaminantes.
+              tr
+                td Duración mínima
+                td Limitar el tiempo de traslado al estrictamente necesario.
+
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
