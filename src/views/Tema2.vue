@@ -846,30 +846,28 @@
           table
             thead
               tr
-                th.bg-color-9 Principio
-                th.bg-color-9 Objetivo
+                th.bg-color-9 Riesgo
+                th.bg-color-9 Descripción
             tbody
               tr
-                td Seguridad física
-                td Prevenir caídas, golpes, aplastamientos o fugas.
+                td Estrés agudo o crónico
+                td Alteraciones emocionales que comprometen el bienestar.
               tr.bg-color-sintesis
-                td Bienestar térmico
-                td Mantener una temperatura adecuada para la especie.
+                td Shock térmico
+                td Cambios extremos de temperatura que afectan órganos vitales.
               tr
-                td Ventilación suficiente
-                td Evitar hipoxia y acumulación de gases nocivos.
+                td Colapso respiratorio o cardíaco
+                td Especialmente en aves o animales frágiles.
               tr.bg-color-sintesis
-                td Confort postural
-                td Permitir posiciones naturales sin restricciones.
+                td Lesiones físicas
+                td Golpes, caídas o aplastamientos durante el traslado.
               tr
-                td Reducción del estrés
-                td Minimizar ruidos, vibraciones y manipulación.
+                td Inmunosupresión
+                td Debilitamiento del sistema inmune por estrés.
               tr.bg-color-sintesis
-                td Control sanitario
-                td Evitar contacto con animales enfermos o contaminantes.
-              tr
-                td Duración mínima
-                td Limitar el tiempo de traslado al estrictamente necesario.
+                td Muerte súbita
+                td Común en especies exóticas frente a malas condiciones.
+
 
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -881,17 +879,17 @@
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-3.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.p-4.py-3.rounded-top
             h4.mb-0.text-center Maltrato animal
           p.mb-0.p-4 El transporte inadecuado se tipifica como forma de maltrato.
       .col-lg-3.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.p-4.py-3.rounded-top
             h4.mb-0.text-center Responsabilidad del tutor
           p.mb-0.p-4 Obligación legal de asegurar condiciones dignas y seguras.
       .col-lg-3.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.p-4.py-3.rounded-top
             h4.mb-0.text-center Consecuencias posibles
           div.p-4
@@ -955,28 +953,28 @@
 
     .row.justify-content-center.align-items-stretch.mb-3
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-2.h-100
+        .bg-color-2.h-100
           .bg-color-15.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Multas económicas
           p.mb-0.p-4 Por infracciones administrativas o maltrato leve
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-2.h-100
+        .bg-color-2.h-100
           .bg-color-15.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Inhabilidades
           p.mb-0.p-4 Para ejercer actividades con animales (tenencia, comercio, espectáculos, etc.).
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-2.h-100
+        .bg-color-2.h-100
           .bg-color-15.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Penas de prisión
           p.mb-0.p-4 En casos graves de maltrato, crueldad o reincidencia (Ley 1774 y Ley 2455).
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-2.h-100
+        .bg-color-2.h-100
           .bg-color-15.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Decomiso del animal
           p.mb-0.p-4 Cuando se ponga en riesgo la vida, salud o integridad del animal.
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-2.h-100
+        .bg-color-2.h-100
           .bg-color-15.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Suspensión de actividades
           p.mb-0.p-4 En centros veterinarios, criaderos, comercios o entidades que incumplan las normas.

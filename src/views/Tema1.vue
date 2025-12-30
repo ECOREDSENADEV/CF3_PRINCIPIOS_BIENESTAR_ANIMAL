@@ -111,17 +111,17 @@
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-3.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Innatas
           p.mb-0.p-4 Presentes desde el nacimiento y genéticamente determinadas, como la succión, la huida, el acicalamiento o ciertas vocalizaciones.
       .col-lg-3.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Aprendidas
           p.mb-0.p-4 Adquiridas a través de la experiencia, la socialización, el adiestramiento y el entrenamiento.
       .col-lg-3.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Adaptativas
           p.mb-0.p-4 Aquellas que favorecen la supervivencia, la reproducción y el equilibrio del individuo dentro de su entorno.
@@ -565,7 +565,7 @@
     
     p.mb-5 El adiestramiento debe ser:
 
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-5
       .col-lg-3.mb-3.mb-lg-0.d-flex
         .bg-color-1.tarjeta
           .p-3
@@ -656,28 +656,28 @@
 
     .row.justify-content-center.align-items-stretch.mb-3
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Habituación progresiva
           p.mb-0.p-4 Introducción gradual a estímulos, personas y ambientes.
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Condicionamiento positivo
           p.mb-0.p-4 Asociación entre estímulo y recompensa clara.
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Desarrollo de habilidades
           p.mb-0.p-4 Aumento paulatino del reto o complejidad.
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Descansos adecuados
           p.mb-0.p-4 Evitan agotamiento físico y emocional.
       .col-lg-4.mb-3.mb-lg-0
-        .tarjeta.bg-color-16.h-100
+        .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Evaluación permanente del bienestar
           p.mb-0.p-4 Interrupción del proceso ante cualquier signo de estrés o sufrimiento.
