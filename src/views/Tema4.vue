@@ -35,22 +35,22 @@
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Bienestar del animal
-          p.mb-0.p-4 Considerar la salud física y emocional de la mascota.
+          p.mb-0.p-4.text-center Considerar la salud física y emocional de la mascota.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Capacidad del tutor
-          p.mb-0.p-4 Valorar si puede asumir la atención de las crías.
+          p.mb-0.p-4.text-center Valorar si puede asumir la atención de las crías.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Impacto social y ambiental
-          p.mb-0.p-4 Tener en cuenta la sobrepoblación y sus consecuencias.
+          p.mb-0.p-4.text-center Tener en cuenta la sobrepoblación y sus consecuencias.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Cumplimiento normativo
-          p.mb-0.p-4 Respetar leyes y regulaciones vigentes.
+          p.mb-0.p-4.text-center Respetar leyes y regulaciones vigentes.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -181,22 +181,22 @@
         .bg-color-16.h-100
           .bg-color-6.p-4.rounded-top
             h4.mb-0.text-center Ejecución profesional
-          p.mb-0.p-4 Debe ser realizada por un médico veterinario.
+          p.mb-0.p-4.text-center Debe ser realizada por un médico veterinario.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.p-4.rounded-top
             h4.mb-0.text-center Evaluación previa
-          p.mb-0.p-4 Se requiere examen clínico antes del procedimiento.
+          p.mb-0.p-4.text-center Se requiere examen clínico antes del procedimiento.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.p-4.rounded-top
             h4.mb-0.text-center Bienestar postoperatorio
-          p.mb-0.p-4 Implica uso de analgesia y seguimiento.
+          p.mb-0.p-4.text-center Implica uso de analgesia y seguimiento.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.p-4.rounded-top
             h4.mb-0.text-center Enfoque ético
-          p.mb-0.p-4 No constituye maltrato, sino protección preventiva.
+          p.mb-0.p-4.text-center No constituye maltrato, sino protección preventiva.
     
     p.mb-5 La esterilización es una forma de responsabilidad, no una privación de derechos.
 
@@ -291,22 +291,22 @@
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Multas económicas
-          p.mb-0.p-4 Por infracciones administrativas o sanitarias.
+          p.mb-0.p-4.text-center Por infracciones administrativas o sanitarias.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Decomiso de animales
-          p.mb-0.p-4 En caso de riesgo, maltrato o reproducción ilegal.
+          p.mb-0.p-4.text-center En caso de riesgo, maltrato o reproducción ilegal.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Inhabilidades legales
-          p.mb-0.p-4 Inhabilidades legales
+          p.mb-0.p-4.text-center Inhabilidades legales
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Procesos penales
-          p.mb-0.p-4 En casos graves de maltrato, reincidencia o comercio ilícito.
+          p.mb-0.p-4.text-center En casos graves de maltrato, reincidencia o comercio ilícito.
 
 
 

@@ -882,17 +882,17 @@
         .bg-color-16.h-100
           .bg-color-6.p-4.py-3.rounded-top
             h4.mb-0.text-center Maltrato animal
-          p.mb-0.p-4 El transporte inadecuado se tipifica como forma de maltrato.
+          p.mb-0.p-4.text-center El transporte inadecuado se tipifica como forma de maltrato.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.p-4.py-3.rounded-top
             h4.mb-0.text-center Responsabilidad del tutor
-          p.mb-0.p-4 Obligación legal de asegurar condiciones dignas y seguras.
+          p.mb-0.p-4.text-center Obligación legal de asegurar condiciones dignas y seguras.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.p-4.py-3.rounded-top
             h4.mb-0.text-center Consecuencias posibles
-          div.p-4
+          div.p-4.text-center
             p.mb-0 Multas 
             p.mb-0 Decomiso del animal 
             p.mb-0 Procesos penales en casos graves

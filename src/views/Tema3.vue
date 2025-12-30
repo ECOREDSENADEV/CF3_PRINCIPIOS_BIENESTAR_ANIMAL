@@ -25,28 +25,28 @@
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Bienestar animal
-          p.mb-0.p-4 Sufrimiento físico o emocional, estrés, enfermedades
+          p.mb-0.p-4.text-center Sufrimiento físico o emocional, estrés, enfermedades
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Seguridad de terceros
-          p.mb-0.p-4 Mordeduras, accidentes de tránsito, ataques entre animales.
+          p.mb-0.p-4.text-center Mordeduras, accidentes de tránsito, ataques entre animales.
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Salud pública
-          p.mb-0.p-4 Propagación de zoonosis, acumulación de residuos orgánicos.
+          p.mb-0.p-4.text-center Propagación de zoonosis, acumulación de residuos orgánicos.
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Equilibrio ambiental
-          p.mb-0.p-4 Escape de especies exóticas, impacto en fauna silvestre.
+          p.mb-0.p-4.text-center Escape de especies exóticas, impacto en fauna silvestre.
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Convivencia comunitaria
-          p.mb-0.p-4 Conflictos vecinales, ruido, suciedad en espacios públicos.
+          p.mb-0.p-4.text-center Conflictos vecinales, ruido, suciedad en espacios públicos.
 
     p.mb-5 En Colombia, la convivencia responsable está alineada con la legislación sobre protección animal, control de riesgos y respeto por la comunidad. Su incumplimiento puede derivar en sanciones legales, conflictos sociales y formas de maltrato por omisión, incluso si no hay intención directa de causar daño.
 
@@ -82,38 +82,38 @@
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Evaluación del entorno
-          p.mb-0.p-4 Observar el hogar desde la perspectiva del animal.
+          p.mb-0.p-4.text-center Observar el hogar desde la perspectiva del animal.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Control de sustancias peligrosas
-          p.mb-0.p-4 Guardar medicamentos, productos químicos y objetos pequeños fuera de su alcance.
+          p.mb-0.p-4.text-center Guardar medicamentos, productos químicos y objetos pequeños fuera de su alcance.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Seguridad estructural
-          p.mb-0.p-4 Instalar mallas o barreras en balcones, ventanas y patios.
+          p.mb-0.p-4.text-center Instalar mallas o barreras en balcones, ventanas y patios.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Supervisión de interacciones
-          p.mb-0.p-4 Vigilar el contacto con niños, adultos mayores y otros animales.
+          p.mb-0.p-4.text-center Vigilar el contacto con niños, adultos mayores y otros animales.
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Rutinas estables
-          p.mb-0.p-4 Mantener horarios regulares de alimentación, descanso y actividad.
+          p.mb-0.p-4.text-center Mantener horarios regulares de alimentación, descanso y actividad.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Enriquecimiento ambiental
-          p.mb-0.p-4 Incorporar estímulos adecuados según especie y personalidad.
+          p.mb-0.p-4.text-center Incorporar estímulos adecuados según especie y personalidad.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Salud preventiva
-          p.mb-0.p-4 Visitas periódicas al veterinario, vacunación y desparasitación.
+          p.mb-0.p-4.text-center Visitas periódicas al veterinario, vacunación y desparasitación.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -192,34 +192,34 @@
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Evitar ruidos molestos
-          p.mb-0.p-4 Controlar ladridos o vocalizaciones excesivas.
+          p.mb-0.p-4.text-center Controlar ladridos o vocalizaciones excesivas.
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Recoger excretas
-          p.mb-0.p-4 Garantizar la limpieza en áreas públicas.
+          p.mb-0.p-4.text-center Garantizar la limpieza en áreas públicas.
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center No permitir deambulación sin control
-          p.mb-0.p-4 Prevenir accidentes, pérdidas o ataques.
+          p.mb-0.p-4.text-center Prevenir accidentes, pérdidas o ataques.
     
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Prevenir mordeduras
-          p.mb-0.p-4 Prevenir mordeduras
+          p.mb-0.p-4.text-center Prevenir mordeduras
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Respetar espacios comunes y privados
-          p.mb-0.p-4 Evitar daños en jardines, vehículos o inmuebles ajenos.
+          p.mb-0.p-4.text-center Evitar daños en jardines, vehículos o inmuebles ajenos.
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Cumplir reglamentos locales
-          p.mb-0.p-4 Acatar normativas municipales y de propiedad horizontal.
+          p.mb-0.p-4.text-center Acatar normativas municipales y de propiedad horizontal.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -291,17 +291,17 @@
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Lesiones a personas
-          p.mb-0.p-4 Mordeduras, empujones, caídas causadas por el animal.
+          p.mb-0.p-4.text-center Mordeduras, empujones, caídas causadas por el animal.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Daños materiales
-          p.mb-0.p-4 Destrozos en propiedad privada, rotura de objetos, accidentes domésticos.
+          p.mb-0.p-4.text-center Destrozos en propiedad privada, rotura de objetos, accidentes domésticos.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-16.h-100
           .bg-color-6.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Gastos derivados
-          p.mb-0.p-4 Atención médica, veterinaria o legal tras un incidente.
+          p.mb-0.p-4.text-center Atención médica, veterinaria o legal tras un incidente.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -315,22 +315,22 @@
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Protección económica
-          p.mb-0.p-4 Evita que el tutor deba asumir gastos elevados.
+          p.mb-0.p-4.text-center Evita que el tutor deba asumir gastos elevados.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Atención a víctimas
-          p.mb-0.p-4 Garantiza una respuesta efectiva y responsable.
+          p.mb-0.p-4.text-center Garantiza una respuesta efectiva y responsable.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Disminución de conflictos
-          p.mb-0.p-4 Facilita la resolución de situaciones legales.
+          p.mb-0.p-4.text-center Facilita la resolución de situaciones legales.
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-2.h-100
           .bg-color-15.p-3.rounded-top
             h4.mb-0.text-center Obligatorio en algunos casos
-          p.mb-0.p-4 Requerido por ley para razas consideradas potencialmente peligrosas.
+          p.mb-0.p-4.text-center Requerido por ley para razas consideradas potencialmente peligrosas.
 
     p.mb-5  El tutor sigue siendo responsable legalmente, aun sin tener seguro contratado.
 
